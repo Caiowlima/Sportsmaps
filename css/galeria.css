@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color:#e7e8e8;
+}
+.logo{
+    width:70px;
+    border-radius: 600%;
+}
+.navbar{
+    background-color: #71029e;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.txtnav{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+/*Div para botão da navbar*/
+.bt{
+    background-color: #fac10e;
+    color: #71029e;
+    font-weight: bold;
+     
+}
+/*Div para o botão dos cards*/
+.btn{
+    background-color: #71029e;
+    color: rgb(250,250,250);
+    font-weight: bold;
+     
+}
+.btn {
+    background-color: #71029e;
+    color: rgb(250,250,250);
+    font-weight: bold;
+    grid-row: 2;
+}
+.btn:hover, .bt:hover{
+    background-color: #71029e;
+    color: #fac10e;
+}
+.material-symbols-outlined{
+    color:#71029e;
+}
+#carouselExampleFade{
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    
+}
+.card{
+    margin-top: 15px ;
+    width: 18rem; 
+    height: 30rem;
+    border-radius: 300;
+}
+.card-img-top{
+   height: 200px;
+}
+.card-img-top:hover{
+   transform: scale(1.1);
+   
+}
+.card-title{
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.form{
+   background-color: #ffffff;
+    align-content:  center;
+}
+.footer{
+    background-color: #71029e;
+    color:rgb(250,250,250);
+    text-decoration: none;
+    margin-top:15px;
+
+}
+a {
+    background-color: #71029e;
+    color:rgb(250,250,250);
+    text-decoration: none;
+    
+ }
+ 
+
+
+
