@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <!-- css do bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="icon" href="img/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link para minha fonte de estilo-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
+    <!--Link para colocar icone na aba da página-->
+    <link rel="icon" href="img/logo.jpg">
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<!-- MDBoostrap -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.1/mdb.min.css"
+  rel="stylesheet"
+/>
+
+<link rel="stylesheet" type="text/css" href="css/galeria.css">
+  </head>
+  <body>
+    <!-- navbar-expand-lg para adaptação maxima do tamanho da tela-->
+    <!--bg-body-teritay é a cor de acordo com o css do bootstrap-->
+    <nav class="navbar navbar-expand-lg" >
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.jpg"></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><span class="txtnav">Inicio</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html"><span class="txtnav">Eventos</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html"><span class="txtnav">Cadastrar</span></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Digite sua busca"  aria-label="Search">
+            <button class="bt btn-outline-light" type="submit"><span class="Buscar">Buscar</span> </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Inicio do card-->
+    <!--Primeira linha -->
+<div class="container text-center">
+  <!--Linha-->
+       <div class="row">
+         <!--Comeco da coluna-->
+          <div class="col">
+              <div class="card">
+                   <img src="img/quadra1.jpeg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Quadra Poliespostiva</h5>
+                  <p class="card-text">Vagas disponiveis: 5</p>
+                  <!-- Button trigger modal -->
+                  <div  class="border ">
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                     Detalhes
+                  </button>
+                  </div>
+      
+              </div>
+                  <!-- Modal 1 -->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quadra Poliespostiva</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          
+                          Vagas disponiveis: 5
+                          <br>
+                          <br>Data: 30/11/2024
+                          <br>Horário: 20:00
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Reservar</button>
+                        </div>
+                      </div>
+                    </div>
+
+                 </div>
+                 <!--Final do card-->
+              </div>
+           <!--Fim da coluna-->   
+          </div>
+          <!--Comeco da coluna-->
+          <div class="col">
+              <div class="card" >
+                   <img src="img/quadra2.jpeg"  class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Quadra Poliespostiva</h5>
+                  <p class="card-text">Vagas disponiveis: 7</p>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Detalhes
+                 </button>
+                 <!--final card-->
+                 </div>
+                 </div>
+                 <!--final card-->
+                 <!-- Modal 2-->
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quadra Poliespostiva</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Vagas disponiveis: 7
+                          <br>
+                          <br>Data: 02/12/2024
+                          <br>Horário: 14:00
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Reservar</button>
+                        </div>
+                      </div>
+                    </div>
+
+                 
+                 
+              </div>
+          </div>   
+          <!--Comeco da coluna-->
+          <div class="col">
+              <div class="card" >
+                   <img src="img/quadra3.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Quadra Poliespostiva</h5>
+                  <p class="card-text">Vagas disponiveis: 10</p>
+                   <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                     Detalhes
+                  </button>
+                <!--Final do card--> 
+                </div>
+                </div>
+          
+                 <!--Final do card-->
+                 <!-- Para mudar a informacação do modal mode o nome de cada, id e  no butto(data-bs-target)-->
+                                  <!-- Modal 3 -->
+                                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quadra Poliespostiva</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          Vagas disponiveis: 10
+                                          <br>
+                                          <br>Data: 30/11/2024
+                                          <br>Horário: 14:00
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                          <button type="button" class="btn btn-primary">Reservar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                     </div>
+          </div>
+          </div>
+</div>
+       
+
+ <!--Inicio do card-->
+    <!--Primeira linha -->
+<div class="container text-center">
+  <!--Linha-->
+       <div class="row">
+         <!--Comeco da coluna-->
+          <div class="col">
+              <div class="card" >
+                   <img src="img/quadra4.jpeg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Quadra Poliespostiva</h5>
+                  <p class="card-text">Vagas disponiveis: 3</p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                     Detalhes
+                  </button>    
+              </div>
+                  <!-- Modal 4 -->
+                  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quadra Poliespostiva</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                          Vagas disponiveis: 3
+                          <br>
+                          <br>Data: 29/11/2024
+                          <br>Horário: 21:00
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Reservar</button>
+                        </div>
+                      </div>
+                    </div>
+
+                 </div>
+                 <!--Final do card-->
+              </div>
+           <!--Fim da coluna-->   
+          </div>
+          <!--Comeco da coluna-->
+          <div class="col">
+              <div class="card" >
+                   <img src="img/quadra5.jpg"  class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Quadra Poliespostiva</h5>
+                  <p class="card-text">Vagas disponiveis: 5</p>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    Detalhes
+                 </button>
+                 <!--final card-->
+                 </div>
+                 </div>
+                 <!--final card-->
+                 <!-- Modal 5-->
+                  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quadra Poliespostiva</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Vagas disponiveis: 5
+                          <br>
+                          <br>Data: 30/11/2024
+                          <br>Horário: 20:00
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Reservar</button>
+                        </div>
+                      </div>
+                    </div>
+
+                 
+                 
+              </div>
+          </div>   
+          <!--Comeco da coluna-->
+          <div class="col">
+              <div class="card" >
+                   <img src="img/quadra6.jpeg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Quadra Poliespostiva</h5>
+                  <p class="card-text">Vagas disponiveis: 2</p>
+                   <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                     Detalhes
+                  </button>
+                <!--Final do card--> 
+                </div>
+                </div>
+          
+                 <!--Final do card-->
+                 <!-- Para mudar a informacação do modal mode o nome de cada, id e  no butto(data-bs-target)-->
+                                  <!-- Modal 6 -->
+                                  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="exampleModalLabel">Quadra Beach Volei</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                          Vagas disponiveis: 2
+                                            <br>
+                                            <br>Data: 28/11/2024
+                                            <br>Horário: 19:00
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                          <button type="button" class="btn btn-primary">Reservar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                     </div>
+          </div>
+       </div>                         
+</div>
+      
+       <!-- Footer -->
+    <div class="footer">                     
+      <footer class="footer text-center text-lg-start">
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="site" href="#"> SportMaps</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div> 
+        </div> 
+      <!--Vilibras-->
+          <!-- Para ter acessibilidae e libras com apoio do site do governo-->
+          <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+          
+ <!--Script sempre em cima do /body não pode ficar antes dele-->
+    <!--Script do bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+ <!-- MDB -->
+ <!--Links para footer do md boostrap-->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.1/mdb.umd.min.js"
+></script>
+  </body>
+</html> 
