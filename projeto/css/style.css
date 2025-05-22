@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+--roxo:#5a037a;
+
+--amarelo:#ffc929;
+--azul:#1E90FF;
+--fundo:#F8F8FF;
+
+}
+body{
+        background-color:var(--fundo);
+        ;
+    }
+    .logo{
+        background-color: var(--roxo);
+        width:70px;
+        border-radius: 600%;
+    }
+    .navbar{
+        background-color: var(--roxo);
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    .txtnav{
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    /*Div para botão da navbar*/
+    .bt{
+    background-color:var(--amarelo);
+    color: var(--roxo);
+    font-weight: bold;
+    border-radius:05px;
+     
+     }
+     .bt:hover{
+        background-color:var(--roxo);
+        color: var(--amarelo);
+        font-weight: bold;
+        border-radius:05px;
+         
+         }
+    .btn{
+        background-color: var(--amarelo);
+        color: rgb(250,250,250);
+        font-weight: bold;
+    }
+    .btn:hover{
+        background-color: #e7e8e8;
+        color:var(--amarelo);
+    }
+    .material-symbols-outlined{
+        color:var(--amarelo);
+    }
+    #carouselExampleFade{
+        margin-top:2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+        
+    }
+   
+   .faixa{
+
+    margin-top:40px;
+    background-color:var(--roxo);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.fx{
+
+    text-align: center;
+   color:rgb(250,250,250)
+
+}
+
+.j{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size:20px;
+   
+
+}
+
+.form{
+    background-color: #ffffff;
+     align-content:  center;
+ }
+ .footer{
+     background-color: var(--roxo);
+     color:rgb(250,250,250);
+     text-decoration: none;
+     margin-top:15px;
+ 
+ }
+ a {
+     background-color:var(--roxo);
+     color:rgb(250,250,250);
+     text-decoration: none;
+     
+  }
+
+   
