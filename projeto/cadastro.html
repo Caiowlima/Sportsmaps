@@ -63,6 +63,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.1/mdb.min.css"
           </div>
         </div>
       </nav>
+      <?php 
+        include('./componentes/header.php');  
+            ?>
       <div class="container">
       <div class="card text-center" >
         <div class="card-header"> <h2>Realize seu cadastro</h2>
@@ -79,6 +82,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.1/mdb.min.css"
               </ul>
         </div>
         <div class="card-body">
+          
           <form method="post" action="./salvar.php" enctype="multipart/form-data" class="needs-validation" novalidate>
             <div class="row  h-100">
               <div class="col-3 ">
@@ -253,6 +257,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.1/mdb.min.css"
   </script>
   <!--Vilibras-->
     <!--Script sempre em cima do /body não pode ficar antes dele-->
+    <!-- script js-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous" defer>
+  </script>
+  <script type="text/javascript" src="../js/jquery.mask.min.js"></script>
+  <script type="text/javascript" src="../js/validarForm.js"></script>
+  <script type="text/javascript" src="../js/atualizarFoto.js"></script>
     <!--Script do bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
