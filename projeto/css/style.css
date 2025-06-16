@@ -39,15 +39,15 @@ body{
     color: var(--roxo);
     font-weight: bold;
     border-radius:05px;
-     
-     }
-     .bt:hover{
+    
+    }
+    .bt:hover{
         background-color:var(--roxo);
         color: var(--amarelo);
         font-weight: bold;
         border-radius:05px;
          
-         }
+    }
     .btn{
         background-color: var(--amarelo);
         color: rgb(250,250,250);
@@ -67,7 +67,7 @@ body{
         margin-bottom: 2%;
         
     }
-   
+
    .faixa{
 
     margin-top:40px;
@@ -110,4 +110,62 @@ body{
      
   }
 
-   
+.section-cards {
+    background-color: #f3f2fc;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.titulo-cards {
+  color: var(--roxo);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.icon-roxo {
+    color: var(--roxo);
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+ 
+.section-cards {
+  background-color: #f3e6f9; /* Roxo claro */
+  border-radius: 16px;
+  padding: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.rolar-suave {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+
